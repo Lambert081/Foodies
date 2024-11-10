@@ -1,0 +1,136 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /* border: 1px solid red; */
+    padding: 0px 80px;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+     align-items: center;
+  }
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0px 15px;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: black;
+}
+
+.logo {
+    color: rgb(13, 231, 13);;
+    font-size: 35px;
+    font-weight: 600;
+    margin-right: 360px;
+}
+.li-home {
+    color: rgb(13, 231, 13);;
+    text-decoration: dashed;
+}
+
+.footer {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: white;
+}
+
+.footer-container {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    height: 150px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section {
+    display: flex;
+}
+
+
+.margin {
+    margin-left: 80px;
+}
+
+.h6-headers {
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-weight: 400;
+}
+.foodies {
+    color: rgb(13, 231, 13);
+}
+
+.p-margins {
+    margin-bottom: 10px;
+}
+
+.icon-img {
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    margin-right: 15px;
+}
+.e-sub {
+    /* border: 1px solid; */
+    display: flex;
+}
+.email {
+    /* border: 1px solid; */
+    width: 145px;
+    height: 30px;
+    margin-right: 8px;
+    justify-content: center;
+    padding: 0px 10px;
+    background-color: rgb(248, 239, 239);
+}
+.sub {
+    /* border: 1px solid; */
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 231, 13);
+    color: white;
+}
+.march {
+    margin-bottom: 22px;
+}
+.div {
+    margin-bottom: 35px;
+}
+.copyright {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
