@@ -8,10 +8,11 @@
 
 .hero-section {
     /* border: 1px solid; */
-    height: calc(100vh - 60px);
+    height: 400px;
     display: flex;
     padding: 20px 80px;
     justify-content: space-between;
+    background-color: rgb(227, 252, 243);
 }
 .left-hr-sec-container {
     /* border: 1px solid blue; */
@@ -25,14 +26,19 @@
     margin-bottom: 50px;
 }
 .left-center-hr-sec {
-    /* border: 1px solid yellow; */
+    border: 1px solid yellow;
     display: flex;
     justify-content: space-between;
-    
+    width: 60%;
+    padding: 90px;
 }
 
 .center-img {
+    /* border: 1px solid; */
     display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
 }
 .food-h1 {
     font-size: 28px;
@@ -45,12 +51,15 @@
     margin-bottom: 30px;
 }
 .get {
-    height: 40px;
+    border: 1px solid;
+    height: 50px;
     width: 150px;
     text-align: center;
     align-items: center;
+    justify-content: center;
     color: white;
-    background-color: rgb(13, 231, 13);;
+    background-color: rgb(13, 231, 13);
+    padding: 15px 30px;
 }
 .section-container {
     /* border: 1px solid; */
@@ -65,13 +74,14 @@
 .free {
     display: flex;
     border: 1px solid;
-    width: 200px;
+    width: 230px;
+    align-items: center;
 }
 .span {
     font-size: 20px;
 }
 .quick {
-    padding-left: 10px;
+    margin-right: 10px;
 }
 
 .our-section {
@@ -85,7 +95,7 @@
 }
 .our-left-section {
     width: 350px;
-    height: 350px;
+    height: 370px;
     background-color: gray;
     position: relative;
 }
@@ -131,7 +141,7 @@ align-items: center;
 .right-start-section {
     /* background-color: 1px solid red; */
     width: 350px;
-    height: 350px;
+    height: 400px;
     background-color: gray;
     position: relative;
 }
@@ -178,4 +188,175 @@ align-items: center;
    color: white;
    background-color: rgb(13, 231, 13);;
 }
+
+.feature-container {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 80px;
+    height: 600px;
+}
+
+.top-feature-section {
+    display: flex;
+}
+
+.asset-div {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: rgb(237, 245, 242);
+}
+
+.h5-asset {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 30px;
+}
+.p-asset {
+   font-size: 14px;
+   padding: 20px 30px; 
+   color: gray;
+}
+
+.discover {
+    border: 1px solid;
+     box-shadow: 1px 1px 1px;
+     padding-left: px;
+     margin-left: 30px;
+     width: 150px;
+     height: 30px;
+     /* justify-content: center; */
+     text-align: center;
+     align-items: center;
+     color: rgb(13, 231, 13);;
+     background-color: rgb(227, 252, 243);
+}
+
+.bottom-feature-section {
+    display: flex;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.variety {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.product-section {
+    border: 1px solid;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 80px;
+}
+
+.product {
+    font-size: 10px;
+    margin: 5px;
+}
+
+.most {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stars {
+    border: 1px solid;
+    height: 200px;
+    width: 130px;
+    text-align: center;
+}
  
+.img-src {
+    width: 70px;
+    margin-top: 5px;
+}
+
+.star-entity {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgb(13, 231, 13);;
+}
+.star-p {
+    margin-bottom: 10px;
+}
+.star-num {
+    margin-bottom: 10px;
+    color: gray;
+}
+.green {
+    color: rgb(13, 231, 13);;
+}
+.buy-now {
+    border: 1px solid rgb(13, 231, 13);;
+    height: 30px;
+    width: 100px;
+    margin-left: 13px;
+    color: rgb(13, 231, 13);;
+    padding-top: 5px;
+}
+.box {
+    box-shadow: 1px 1px 0px;
+}
+.box-a {
+    color: rgb(13, 231, 13);;
+}
+.p-sum {
+    color: black;
+}
+
+.viggie-container {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 80px;
+    height: 300px;
+    position: absolute;left: 400px; bottom: 100px;
+    text-align: center;
+}
+.viggie-food {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 120px;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+.get-food {
+    border: 1px solid rgb(13, 231, 13);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 50px;
+    width: 150px;
+    margin-left: 30%;
+    background-color: rgb(13, 231, 13);;
+    color: white;
+}
+.rectangle {
+    padding: 0 80px;
+} 
+.veggie {
+    position: relative;
+}
