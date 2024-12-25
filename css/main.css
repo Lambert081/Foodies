@@ -39,6 +39,7 @@
     width: 150px;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 .food-h1 {
     font-size: 28px;
@@ -76,6 +77,7 @@
     /* border: 1px solid; */
     width: 230px;
     align-items: center;
+    gap: 30px;
 }
 .span {
     font-size: 20px;
