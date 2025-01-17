@@ -46,29 +46,153 @@ nav {
 
 }
 
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 375px) {
     body {
         background-color: rgba(240, 241, 236, 1);
+        width: 100%;
     }
 
     .fa-bars {
         display: block;
     }
 
-    nav {
-        position: fixed;
-        top: 80px;
-        left: -100vh;
-        height: calc(100vh - 80px);
-        background-color: black;
-        width: 100%;
-        padding: 2rem 4rem;
-        transition: 1s;
     
+
+    .logo {
+        display: flex;
+        width: 120px;
+        height: 39px;
+        font: inter;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38.73px;
+        color: rgba(6, 193, 103, 1);
     }
+
+    .fa-bars {
+        display: flex;
+        width: 50px;
+        height: 41px;
+        color: rgba(6, 193, 103, 1);
+    }
+
+    .food-h1 {
+        display: flex;
+        width: 320px;
+        height: 186px;
+        font: inter;
+        font-weight: 600;
+        font-size: 51px;
+        line-height: 61.72px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        color: rgba(29, 29, 31, 1);
+    }
+
+    .strive {
+        display: flex;
+        width: 316px;
+        height: 66px;
+        font: inter;
+        font-weight: 400;
+        font: 14px;
+        line-height: 22.32px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .get {
+        display: flex;
+        width: 320px;
+        height: 68px;
+        background-color: #06C167;
+        font: inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.36px;
+        color: rgba(255, 255, 255, 1);
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        margin: auto;
+    }
+
+    .right-hero-section {
+        display: flex;
+        width: 320.01px;
+        height: 469.82px;
+        margin: 0 auto;
+        margin-top: 50px;
+        position: relative;
+    }
+
+
+    .rectangle-2 {
+        display: flex;
+        position: absolute;
+        width: 230px;
+        height: 53px;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 50px;
+        top: 365px;
+        left: 55px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rectangle-3 {
+        display: flex;
+        position: absolute;
+        width: 230px;
+        height: 53px;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 50px;
+        top: 430px;
+        left: 55px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Ratings {
+        display: flex;
+        width: 91px;
+        height: 18px;
+        font: inter;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18.15px;
+        color: rgba(29, 29, 31, 1);
+    }
+
+    .fa-star {
+        display: flex;
+        width: 99.23px;
+        height: 14px;
+        color: rgba(6, 193, 103, 1);
+    }
+
+    
 }
 
+nav {
+    /* position: fixed; */
+    top: 80px;
+    left: -100vh;
+    /* height: calc(100vh - 80px); */
+    background-color: black;
+    width: 100%;
+    padding: 2rem 4rem;
+    transition: 1s;
 
+}
 
 nav ul {
     display: flex;
