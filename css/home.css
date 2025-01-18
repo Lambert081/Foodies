@@ -117,13 +117,7 @@ nav li:first-child{
         font-size: 32px;
         line-height: 38.73px;
         color: rgba(6, 193, 103, 1);
-    }
-
-    .fa-bars {
-        display: block;
-        width: 50px;
-        height: 41px;
-        color: rgba(6, 193, 103, 1);
+        margin-top: 5px;
     }
 
     .food-h1 {
@@ -176,9 +170,10 @@ nav li:first-child{
 
     .right-hero-section {
         display: flex;
-        width: 320.01px;
+        width: 300px;
         height: 469.82px;
-        margin: 0 auto;
+        justify-content: center;
+        margin: auto;
         margin-top: 50px;
         position: relative;
     }
