@@ -1,3 +1,4 @@
+
 /* resetcss */
 * {
     margin: 0;
@@ -6,203 +7,103 @@
     text-decoration: none;
     list-style: none;
 }
-
+ 
 body {
+    min-height: 100vh;
     font-family: "Rubik", sans-serif;
 }
 
-header {
-    display: flex;
-    padding: 1rem 3rem;
-    background-color: beige;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
+nav {
+    background-color: white;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
+    width: 100%;
     display: flex;
-    gap: 2rem;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.fa-bars {
+nav li {
+    height: 50px;
+}
+
+nav a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+}
+
+nav a:hover {
+    background-color: #f0f0f0;
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+.nav-link {
+    display: flex;
+    height: 19px;
+    font: inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: rgba(29, 29, 31, 1);
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(194, 174, 174, 0.322);
+    backdrop-filter: blur(10px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.manu-button {
     display: none;
 }
 
-nav.active {
-    left: 0;
-}
-
-nav {
-    position: fixed;
-}
-
-/* STYLING FOR SCREEN SIZES BELOW 1440PX TO 1024PX  */
-
-@media only screen and (max-width: 1024px) {
-    body {
-        background-color: yellow;
+@media only screen and (max-width:800px){
+    .hideonMobile{
+        display: none;
     }
 
+    .manu-button{
+        display: block;
+    }
 }
 
-
-@media only screen and (max-width: 375px) {
-    body {
-        background-color: rgba(240, 241, 236, 1);
-        width: 100%;
+@media only screen and (max-width:375px){
+    .hideonMobile{
+        display: none;
     }
 
-    .fa-bars {
+    .manu-button{
         display: block;
     }
 
-    
-
-    .logo {
-        display: flex;
-        width: 120px;
-        height: 39px;
-        font: inter;
-        font-weight: 500;
-        font-size: 32px;
-        line-height: 38.73px;
-        color: rgba(6, 193, 103, 1);
+    .rectangle{
+        display: none;
     }
-
-    .fa-bars {
-        display: flex;
-        width: 50px;
-        height: 41px;
-        color: rgba(6, 193, 103, 1);
-    }
-
-    .food-h1 {
-        display: flex;
-        width: 320px;
-        height: 186px;
-        font: inter;
-        font-weight: 600;
-        font-size: 51px;
-        line-height: 61.72px;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        margin: 0 auto;
-        margin-top: 50px;
-        color: rgba(29, 29, 31, 1);
-    }
-
-    .strive {
-        display: flex;
-        width: 316px;
-        height: 66px;
-        font: inter;
-        font-weight: 400;
-        font: 14px;
-        line-height: 22.32px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 20px;
-        margin-bottom: 30px;
-    }
-
-    .get {
-        display: flex;
-        width: 320px;
-        height: 68px;
-        background-color: #06C167;
-        font: inter;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19.36px;
-        color: rgba(255, 255, 255, 1);
-        justify-content: center;
-        align-items: center;
-        margin-top: 40px;
-        margin: auto;
-    }
-
-    .right-hero-section {
-        display: flex;
-        width: 320.01px;
-        height: 469.82px;
-        margin: 0 auto;
-        margin-top: 50px;
-        position: relative;
-    }
-
-
-    .rectangle-2 {
-        display: flex;
-        position: absolute;
-        width: 230px;
-        height: 53px;
-        background-color: rgba(255, 255, 255, 1);
-        border-radius: 50px;
-        top: 365px;
-        left: 55px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .rectangle-3 {
-        display: flex;
-        position: absolute;
-        width: 230px;
-        height: 53px;
-        background-color: rgba(255, 255, 255, 1);
-        border-radius: 50px;
-        top: 430px;
-        left: 55px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .Ratings {
-        display: flex;
-        width: 91px;
-        height: 18px;
-        font: inter;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 18.15px;
-        color: rgba(29, 29, 31, 1);
-    }
-
-    .fa-star {
-        display: flex;
-        width: 99.23px;
-        height: 14px;
-        color: rgba(6, 193, 103, 1);
-    }
-
-    
-}
-
-nav {
-    /* position: fixed; */
-    top: 80px;
-    left: -100vh;
-    /* height: calc(100vh - 80px); */
-    background-color: black;
-    width: 100%;
-    padding: 2rem 4rem;
-    transition: 1s;
-
-}
-
-nav ul {
-    display: flex;
-    flex-direction: column;
-}
-
-nav ul a {
-    color: white;
-}
-
-nav ul a:hover {
-    color: green;
 }
